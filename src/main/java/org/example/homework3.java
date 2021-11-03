@@ -2,8 +2,9 @@ package org.example;
 
 public class homework3 {
     public static void main(String[] args) {
-taskOne();
-taskTwo();
+//taskOne();
+//taskTwo();
+taskThree();
     }
     public static void taskOne(){
         int [] a = {1,0,0,0,0,0,0,1};
@@ -34,6 +35,19 @@ taskTwo();
 
         }
 
+
+    }
+
+    public static void taskThree(){
+        int [] c = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        for (int i=0; i < c.length; i++ ) {
+            System.out.println(c[i]);
+
+            if (c[i] < 6) {
+                c[i] = i * 2;
+                System.out.println(c[i]);
+            }
+        }
 
     }
 
