@@ -6,6 +6,7 @@ public class homework3 {
 //taskTwo();
 //taskThree();
 //taskFour();
+taskFive(3, 6);
     }
     public static void taskOne(){
         int [] a = {1,0,0,0,0,0,0,1};
@@ -68,6 +69,14 @@ public class homework3 {
             System.out.println();
         }
 
+    }
+    public static void taskFive(int len, int initialValue){
+        int []f = new int [len];
+        for (int i = 0; i < f.length;i ++){
+            f[i]= initialValue;
+            System.out.println(f[i]);
+        }
+        System.out.println();
     }
 
 
