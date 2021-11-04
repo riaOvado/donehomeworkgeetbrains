@@ -4,7 +4,8 @@ public class homework3 {
     public static void main(String[] args) {
 //taskOne();
 //taskTwo();
-taskThree();
+//taskThree();
+//taskFour();
     }
     public static void taskOne(){
         int [] a = {1,0,0,0,0,0,0,1};
@@ -48,6 +49,23 @@ taskThree();
                 c[i] = c[i] * 2;
                 System.out.println(c[i]);
             }
+        }
+
+    }
+    //не вышло с последним элементом
+    public static void taskFour(){
+        int [][] d = new int[7][7];
+        d[0][0]= 1;
+
+        for (int i = 0; i< d.length; i++) {
+            for(int j = 0; j < d[i].length; j++) {
+               int l = d[i].length;
+                if (i == j ){
+                    d[i+1][j+1]=1;
+                }
+                System.out.print(d[i][j] + "  " );
+            }
+            System.out.println();
         }
 
     }
