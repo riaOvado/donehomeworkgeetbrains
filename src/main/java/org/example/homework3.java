@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Random;
+
 public class homework3 {
     public static void main(String[] args) {
 //taskOne();
@@ -77,6 +79,14 @@ taskFive(3, 6);
             System.out.println(f[i]);
         }
         System.out.println();
+    }
+    public static void taskSix(){
+        int []j = new int[5];
+        final Random random = new Random();
+        for( int i = 0; i < j.length; i ++){
+            j[i]= random.nextInt(10);
+        }
+
     }
 
 
