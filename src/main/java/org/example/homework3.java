@@ -8,7 +8,8 @@ public class homework3 {
 //taskTwo();
 //taskThree();
 //taskFour();
-taskFive(3, 6);
+//taskFive(3, 6);
+taskSix();
     }
     public static void taskOne(){
         int [] a = {1,0,0,0,0,0,0,1};
@@ -85,6 +86,11 @@ taskFive(3, 6);
         final Random random = new Random();
         for( int i = 0; i < j.length; i ++){
             j[i]= random.nextInt(10);
+            System.out.println(j[i]);
+
+
+            }
+
         }
 
     }
@@ -97,5 +103,13 @@ taskFive(3, 6);
 
 
 
-}
+
+
+
+
+
+
+
+
+
 
